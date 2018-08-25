@@ -322,21 +322,24 @@ hr {
   height: 0; }
 
 #navbar {
-  background: #323232; }
+  background: #323232;
+  overflow: hidden;
+  position: fixed;
+  top: 0; }
 
 .main-nav {
   display: flex; }
   .main-nav li {
-    list-style: none; }
-  .main-nav li:first-child {
-    margin-right: auto; }
+    list-style: none;
+    margin-left: 7rem; }
   .main-nav a {
     color: #2F5662;
     display: block;
     border-radius: 5px;
     padding: 15px 30px;
     text-decoration: none;
-    font-family: 'Sigmar One';
+    font-family: 'Audiowide';
+    font-weight: 900;
     font-size: 35px;
     text-transform: uppercase; }
     .main-nav a:hover, .main-nav a:focus {
@@ -344,6 +347,11 @@ hr {
 
 .nav-link {
   margin-top: 1.5rem; }
+
+#welcome-section {
+  margin-left: 10rem;
+  margin-top: 12rem;
+  font-family: 'Audiowide'; }
 
 .flex-video {
   height: 0;
@@ -362,5 +370,10 @@ hr {
   width: 100%;
   left: 0; }
 
-#welcome-section {
-  margin-left: 10rem; }
+#projects {
+  margin-top: 2rem;
+  padding: 2rem; }
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(3, auto); }
