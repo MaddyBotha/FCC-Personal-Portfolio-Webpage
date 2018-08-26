@@ -1,0 +1,40 @@
+#projects
+  margin-top: 22rem
+  margin-bottom: 4rem
+  text-align: center
+  background: $snow-white
+  @media only screen and (max-width: 1024px)
+    margin-top: -15rem
+  a
+    color: $blue-slate
+    font-size: 30px
+    text-decoration: none
+    outline: 0
+    font-family: 'Sigmar One'
+
+    &:hover,
+    &:focus
+      color: $aqua
+
+.cards
+  display: grid
+  grid-template-columns: repeat(3,auto)
+  grid-gap: 30px
+  @media only screen and (max-width: 1024px)
+    display: grid
+    grid-template-columns: repeat(2, auto)
+    grid-gap: 15px
+
+.feature-card
+  padding: 20px 30px
+  box-shadow: 0 12px 10px -10px rgba(0,0,0, 0.2)
+
+  h2
+    margin: 5rem 0
+    margin-left: 6rem
+  p
+    margin: 10px 0 0
+    padding: 0
+
+.project-tile
+  border-top: 3px solid $sky-blue
