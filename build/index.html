@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="assets/css/main.min.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
 
 <body>
@@ -17,6 +18,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" style="isolation:isolate" viewBox="-2.88 23 568.08 111.5" width="568.08" height="111.5"><text transform="translate(31.46 98)" font-family="BlowBrush" font-weight="400" font-size="80" fill="#fff">MadBot</text><text transform="translate(323.68 99)" font-family="BlowBrush" font-weight="400" font-size="80" fill="#00a9dd">Design</text>
         </svg>
         <li><a href="#projects" class="nav-link">projects</a></li>
+        <li><a href="#skills" class="nav-link">skills</a></li>
         <li><a href="#contact" class="nav-link">contact</a></li>
       </ul>
     </nav>
@@ -64,6 +66,100 @@
     </div>
   </section>
   <!-- End -->
+  <!-- Skills -->
+  <!-- <div id="skills" class="wrapper">
+    <div class="center">
+      <h1 class="huge">Skills</h1>
+      <div class="skillbox">
+        <p class="big">HTML5</p>
+        <p class="big">90%</p>
+        <div class="skill">
+          <div class="skill_level"></div>
+        </div>
+      </div>
+
+      <div class="skillbox">
+        <p class="big">CSS3/SASS</p>
+        <p class="big">90%</p>
+        <div class="skill">
+          <div class="skill_level"></div>
+        </div>
+      </div>
+
+      <div class="skillbox">
+        <p class="big">JAVASCRIPT</p>
+        <p class="big">90%</p>
+        <div class="skill">
+          <div class="skill_level"></div>
+        </div>
+      </div>
+
+      <div class="skillbox">
+        <p class="big">BOOTSTRAP</p>
+        <p class="big">90%</p>
+        <div class="skill">
+          <div class="skill_level"></div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- End -->
+  <!-- Modal Skills -->
+  <!-- Button trigger modal -->
+  <div class="wrapper" id="skills">
+    <h1 class="huge check_skills">Why not click below and check out some of my skills?</h1>
+    <button type="button" class="btn btn-dark button skills animated bounceInLeft delay-2s" data-toggle="modal" data-target="#exampleModalCenter">
+  Checkout My Skills
+</button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title bigger" id="exampleModalCenterTitle">My Skills include:</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        </button>
+          </div>
+          <div class="modal-body">
+            <div class="cards">
+              <div class="feature-cards skill_title">
+                <img src="assets/img/atom-solid.svg" alt="" class="skill_tile">
+              </div>
+              <div class="feature-cards skill_title">
+                <img src="assets/img/css3-alt-brands.svg" alt="" class="skill_tile">
+              </div>
+              <div class="feature-cards skill_title">
+                <img src="assets/img/git-brands.svg" alt="" class="skill_tile">
+              </div>
+              <div class="feature-cards skill_title">
+                <img src="assets/img/github-brands.svg" alt="" class="skill_tile">
+              </div>
+              <div class="feature-cards skill_title">
+                <img src="assets/img/html5-brands.svg" alt="" class="skill_tile">
+              </div>
+              <div class="feature-cards skill_title">
+                <img src="assets/img/js-brands.svg" alt="" class="skill_tile">
+              </div>
+              <div class="feature-cards skill_title">
+                <img src="assets/img/node-brands.svg" alt="" class="skill_tile">
+              </div>
+              <div class="feature-cards skill_title">
+                <img src="assets/img/npm-brands.svg" alt="" class="skill_tile">
+              </div>
+              <div class="feature-cards skill_title">
+                <img src="assets/img/sass-brands.svg" alt="" class="skill_tile">
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End -->
   <!-- Footer -->
   <div id="contact" class="wrapper">
     <footer id="social-info">
@@ -78,7 +174,8 @@
   <!-- End -->
 
   <!-- FCC -->
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+  <script src="zenscroll-min.js"></script>
 
   <!-- Vendors /Assets -->
   <script src="./assets/js/vendors.js"></script>
